@@ -14,6 +14,8 @@ PM = gg.multiChoice({
          "🛡️REPORT SİLİCİ🛡️",
          "PLAYER ESP",
          "NO LAG FLASH",
+         "UZUN ZIPLAMA",
+         "❌UZUN ZIPLAMA KAPALI❌ ",
          "𝙴𝚇𝙸𝚃 ",
 }, nil, "HYDRA HACK  𝐕2 SCRİPT ")
     if PM == nil then else
@@ -29,7 +31,9 @@ if PM[9] == true then v9() end
 if PM[10] == true then v10() end
 if PM[11] == true then v11() end
 if PM[12] == true then v12() end
-if PM[13] == true then CLOSE() end
+if PM[13] == true then v13() end
+if PM[14] == true then v14() end
+if PM[15] == true then CLOSE() end
 end
 PmhackXx = -1
 end
@@ -973,29 +977,60 @@ gg.toast("Kafadan vurma Etkin🥶")
 end
 
 function v10()
-gg.sleep(1000)
-gg.toast("Lᴏɢ Cʟᴇᴀʀ🚯")
-gg.sleep(1000)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber(":tss", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber(":tss", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.getResults(10000)
-gg.editAll(":", gg.TYPE_BYTE)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber(":Tss", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber(":Tss", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.getResults(10000)
-gg.editAll(":", gg.TYPE_BYTE)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber(":TSS", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber(":TSS", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.getResults(10000)
-gg.editAll(":", gg.TYPE_BYTE)
-gg.toast("Reportlar silindi🛡️")
-gg.setVisible(false)
+os["remove"]("/storage/emulated/0/tencent")
+os["remove"]("/storage/emulated/0/MidasOverse")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+os["remove"]("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+os["remove"]("/storage/emulated/0/tencent")
+os["remove"]("/storage/emulated/0/MidasOverse")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+os["remove"]("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
+os["remove"]("/storage/emulated/0/tencent")
+os["remove"]("/storage/emulated/0/MidasOverse")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/tbslog")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/login-identifier.txt")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/cacheFile.txt")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/vmpcloudconfig.json")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+os["remove"]("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache")
+gg["toast"](" \nBᴇᴋʟᴇ...10%\n🧽▒▒▒▒▒▒▒▒▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴇᴋʟᴇ...20%\n🧽🧽▒▒▒▒▒▒▒▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴇᴋʟᴇ...30%\n🧽🧽🧽▒▒▒▒▒▒▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴇᴋʟᴇ...40%\n🧽🧽🧽🧽▒▒▒▒▒▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴇᴋʟᴇ...50%\n🧽🧽🧽🧽🧽▒▒▒▒▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴇᴋʟᴇ...60%\n🧽🧽🧽🧽🧽🧽▒▒▒▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴇᴋʟᴇ...70%\n🧽🧽🧽🧽🧽🧽🧽▒▒▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴇᴋʟᴇ...80%\n🧽🧽🧽🧽🧽🧽🧽🧽▒▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴇᴋʟᴇ...90%\n🧽🧽🧽🧽🧽🧽🧽🧽🧽▒")
+gg["sleep"](260)
+gg["toast"](" \nBᴀşᴀʀıʟı…100%\n🧽🧽🧽🧽🧽🧽🧽🧽🧽🧽")
+gg.toast("🧽Reportlar Temizlendi🧽") 
+
 end
 
 function v11()
@@ -1081,6 +1116,40 @@ gg.getResults(667478)
 gg.toast("No lagFlash ✅")
 end
 
+function v13()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.6~1", gg.TYPE_FLOA, false, gg.SIGN_EQUAL, 0, -1)
+sjumpff1 = gg.getResults(2500)
+gg.editAll("3.5241295", gg.TYPE_FLOAT)
+gg.editAll("3.5241295", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("300;0;0.05000000075;2;25::17", gg.TYPE_FLOAT, false)
+gg.searchNumber("300;0;0.05000000075;2;25::17", gg.TYPE_FLOAT, false)
+gg.refineNumber("0.05000000075", gg.TYPE_FLOAT, false)
+gg.refineNumber("0.05000000075", gg.TYPE_FLOAT, false)
+sjumpff2 = gg.getResults(2400)
+gg.editAll("2.1241295", gg.TYPE_FLOAT)
+gg.editAll("2.1241295", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-6.1526231e27;-1.0070975e28::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-6.1526231e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+sjumpff3 = gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("🐇 UZUN ZIPLAMA AKTİF🐇")
+end
+
+function v14()
+gg.clearResults()
+gg.clearResults()
+gg.toast("❌UZUN ZIPLAMA KAPALI❌ ")
+end
 
 
 function CLOSE()
