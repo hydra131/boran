@@ -1,5 +1,7 @@
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
-
+gg.alert("🇹🇷YAPAN= HYDRA-BLOOD🇹🇷")
+gg.alert("🇹🇷Telegram=@trhydra🇹🇷")
+gg.alert("🇹🇷SAFE OYNA WİN SS LERİ İÇİN =@VipHydraa🇹🇷")
 function HOME()
 PM = gg.multiChoice({
         "𝙰ntiban", 
@@ -1153,7 +1155,7 @@ end
 
 
 function CLOSE()
-
+gg.alert("🇹🇷BİZİM SCRİPTİMİZİ KULLANDIGINİZ İÇİN TEŞŞEKUR EDERİZ🇹🇷")
 print("HYDRA HACK YİNE BEKLERİZ") 
 gg.skipRestoreState()
   gg.setVisible(true)
