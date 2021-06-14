@@ -1,8 +1,5 @@
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
-
-gg.alert("🇹🇷YAPAN= HYDRA-BLOOD🇹🇷  ")
-gg.alert("🇹🇷Telegram=@trhydra🇹🇷")
-gg.alert("🇹🇷SAFE OYNA WİN SS LERİ İÇİN =@VipHydraa🇹🇷")
+gg.alert("HYDRA SCRİPT V3\n Yapan=Hydra🇹🇷","DEWAMKE➡️")
 gg.toast("■□□□□□□□□□10%  ")
   gg.sleep(300)
   gg.toast("■■□□□□□□□□20%  ")
